@@ -1,0 +1,93 @@
+[ng-click]:hover {
+  cursor: pointer;
+}
+
+md-content.md-default-theme {
+  background-color: #eee;
+}
+
+md-sidenav > md-toolbar {
+  padding: 15px;
+  height: 150px;
+  max-height: 150px;
+}
+md-sidenav md-list-item.md-2-line .md-list-item-text {
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+md-sidenav md-divider {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+md-sidenav md-icon {
+  fill: #737373;
+  position: relative;
+}
+md-sidenav .md-avatar {
+  height: 64px;
+  width: 64px;
+}
+
+/* More closely matches https://www.google.com/design/spec/components/lists.html#lists-specs */
+md-list-item.md-3-line md-divider[md-inset] {
+  left: 70px;
+}
+
+.md-avatar > svg {
+  border-radius: 50%;
+}
+
+/* fade animation */
+.animate-show {
+  transition: 0.75s ease-out opacity;
+  opacity: 1;
+}
+.animate-show.ng-hide {
+  height: 0;
+  min-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+/* toast styles */
+md-toast.md-error-toast-theme {
+    background-color: #DE3641;
+}
+
+md-toast.md-success-toast-theme {
+    background-color: green;
+}
+
+md-toast.md-info-toast-theme {
+    background-color: #0069CB;
+}
+
+/* list item styles */
+.list-item .title {
+  font-size: medium;
+  font-weight: bold;
+  color: #0277BD
+}
+.list-item .reg {
+  font-size: small;
+  color: black
+}
+
+.list-item .bold {
+  font-weight: bold;
+}
+.list-item .sub {
+  font-size: x-small;
+  color: gray
+}
+
+.list-item .gap {
+  margin: 8px;
+}
+.list-item span {
+  vertical-align: middle;
+}
+.list-item p {
+  display: block;
+}

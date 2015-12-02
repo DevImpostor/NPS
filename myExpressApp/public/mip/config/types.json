@@ -1,0 +1,149 @@
+[
+  {
+    "name": "idf",
+    "title": "Invention Disclosure Form",
+    "icon": "action:ic_lightbulb_outline_24px",
+    "list_view": "views/typed/list/idf.html",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "personnel",
+    "title": "Personnel",
+    "icon": "social:ic_group_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "project",
+    "title": "Projects",
+    "icon": "action:ic_timeline_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mgb_journal",
+    "title": "MGB Journals",
+    "icon": "av:ic_library_books_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "product",
+    "title": "Products",
+    "icon": "hardware:ic_toys_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "product_release",
+    "title": "Product Releases",
+    "icon": "action:ic_launch_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "business_unit",
+    "title": " Business Units",
+    "icon": "action:ic_view_module_24px",
+    "list_view": "",
+    "list_categories": [
+      {
+        "title": "All",
+        "filter": []
+      },
+      {
+        "title": "Pinned",
+        "filter": [
+          {
+            "field_name": "pinned",
+            "value_condition": "true"
+          }
+        ]
+      }
+    ]
+  }
+]

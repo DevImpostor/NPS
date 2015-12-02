@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+types.json
+Defines menu and record types
+  
+name: internal name of object **name must match json mock file
+title: name displayed
+icon: icon displayed on menu and list using Google's icon library .. https://www.google.com/design/icons/
+list_item_template: 
+list_categories: array of categories and their predefined filters
+-----------------------------------------------------------------------

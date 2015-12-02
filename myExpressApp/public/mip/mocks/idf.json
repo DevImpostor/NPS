@@ -1,0 +1,80 @@
+[
+        {
+                "type": "idf",
+                "guid": "42d68d9d-8566-4ee9-818b-2c300ead32f9",
+                "id": 0,
+                "title": "Invention A",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/20/2015",
+                "emerson_ref_nums": ["192387", "187264"],
+                "MGB_ref_nums": ["A83798"],
+                "status": "In Progress"
+        },
+        {
+                "type": "idf",
+                "guid": "059689c8-f929-4bc7-81e5-e6fe1c475a96",
+                "id": 0,
+                "title": "Invention B",
+                "created_by": "Mark Ragu",
+                "created_date": "11/6/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/7/2015",
+                "emerson_ref_nums": ["233453"],
+                "MGB_ref_nums": [],
+                "status": "Pending"
+        },
+        {
+                "type": "idf",
+                "guid": "3fc38612-00e8-4b32-90b6-44a9899e7a94",
+                "id": 0,
+                "title": "Invention C",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/2/2015",
+                "emerson_ref_nums": [],
+                "MGB_ref_nums": [],
+                "status": "New"
+        },
+        {
+                "type": "idf",
+                "guid": "2503b69d-6182-4dc7-ba9c-f68ac13ef61b",
+                "id": 0,
+                "title": "Invention D",
+                "created_by": "Kelly Klemmings",
+                "created_date": "11/11/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/25/2015",
+                "emerson_ref_nums": ["543234"],
+                "MGB_ref_nums": ["A83798"],
+                "status": "Under Review"
+        },
+        {
+                "type": "idf",
+                "guid": "94e46a6b-8090-4021-9419-6a69945d063d",
+                "id": 0,
+                "title": "Invention E",
+                "created_by": "Gene Smith",
+                "created_date": "10/20/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/1/2015",
+                "emerson_ref_nums": ["192387", "187264", "6567776"],
+                "MGB_ref_nums": ["A83798", "V435467"],
+                "status": "Complete"
+        },
+        {
+                "type": "idf",
+                "guid": "b43fbbb4-29bb-4e52-8460-b1f8a543741a",
+                "id": 0,
+                "title": "Invention F",
+                "created_by": "Gene Smith",
+                "created_date": "11/1/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/1/2015",
+                "emerson_ref_nums": ["345346", "2342135"],
+                "MGB_ref_nums": ["F23456"],
+                "status": "Complete"
+        }
+]
