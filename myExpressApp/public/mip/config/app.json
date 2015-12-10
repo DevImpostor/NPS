@@ -1,0 +1,68 @@
+{
+	"name": "",
+	"title": "",
+	"version": "0.1",
+	"use_mocks": true,
+	"record_types": [
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 1,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		},
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 2,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		},
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 3,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		},
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 4,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		},
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 5,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		},
+		{
+			"name": "idf",
+			"edit_roles": ["admin"],
+			"view_roles": ["admin"],
+			"order": 6,
+			"disabled": false,
+			"hide": false,
+			"type_def": "config/types/idf.json",
+			"mock_def": "mocks/idf.json"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "idf",
+  "title": "Invention Disclosure Form",
+  "icon": "action:ic_lightbulb_outline_24px",
+  "list_view": "views/typed/list/idf.html",
+  "edit_view": "views/typed/edit/idf.html",
+  "list_categories": [
+    {
+      "title": "All",
+      "filter": []
+    },
+    {
+      "title": "Pinned",
+      "filter": [
+        {
+          "field_name": "pinned",
+          "value_condition": true
+        }
+      ]
+    }
+  ],
+  "form_fields": [
+    {
+      "name": "",
+      "instructions": "",
+      "title": "",
+      "order": 1,
+      "row":"",
+      "required": false,
+      "control_view": "views/controls/input_box.html",
+      "validation": "",
+      "default_value": ""
+    }
+  ],
+  "relationships": [
+    {
+      "link": "many",
+      "record_type": "personnel",
+      "view": ""
+    }
+  ]
+}

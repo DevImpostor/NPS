@@ -1,0 +1,27 @@
+<!--First Line-->
+<p layout="row">
+	<span class="title" ng-bind="item.last_name + ','"></span>
+	<span class="reg bold" ng-bind="item.first_name"></span>
+</p>
+<!--Second Line-->
+<p layout="row">
+	<span class="sub bold" >Title:</span>
+	<span class="sub" ng-bind="item.title"></span>
+</p>
+<!--Third line-->
+<p layout="row">
+	<span class="sub bold" >Inventor:</span>
+	<span class="sub" ng-bind="item.inventor"></span>
+</p>
+
+<!--Fourth line-->
+<p layout="row">
+	<span class="sub bold" >Last Edited:</span>
+	<span class="sub" ng-bind="item.last_modified_by"></span>
+	<span class="sub bold">on</span>
+	<span class="sub" ng-bind="item.last_modified_date"></span>
+</p>
+
+<!--Right Hand Button Action (only allowed one)-->
+<md-button type="button" aria-label="pinText(item)" ng-click="changePin(item)" class="md-secondary md-raised"
+ng-class="{'md-warn': item.pinned == true}" ng-bind="pinText(item)"></md-button>

@@ -1,0 +1,46 @@
+[
+        {
+                "type": "business_unit",
+                "guid": "1d586fbd-7e4c-4258-a9ee-ccfca51a2a4f",
+                "id": 0,
+                "name": "Business Unit A",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/20/2015",
+                "description": "here is a description for Business Unit A"
+        },
+        {
+                "type": "business_unit",
+                "guid": "003f46bb-74b1-451b-aaff-0041fce575c6",
+                "id": 0,
+                "name": "Business Unit B",
+                "created_by": "Mark Ragu",
+                "created_date": "11/6/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/7/2015",
+                "description": "here is a description for Business Unit B"
+        },
+        {
+                "type": "business_unit",
+                "guid": "a1959948-f724-413c-906d-a7f90685e866",
+                "id": 0,
+                "name": "Business Unit C",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/2/2015",
+                "description": "here is a description for Business Unit C"
+        },
+        {
+                "type": "business_unit",
+                "guid": "a3c907d8-6f4b-4122-aa3f-58d3a7d28d69",
+                "id": 0,
+                "name": "Business Unit D",
+                "created_by": "Kelly Klemmings",
+                "created_date": "11/11/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/25/2015",
+                "description": "here is a description for Business Unit D"
+        }
+]

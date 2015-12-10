@@ -1,6 +1,6 @@
 <!--First Line-->
 <p layout="row">
-	<span class="title" ng-bind="item.title"></span>
+	<span ng-click="navigateTo(item, $event)" class="title" ng-bind="item.title"></span>
 	<span class="reg bold" ng-bind="' - ' + item.status"></span>
 </p>
 <!--Second Line-->
@@ -20,5 +20,5 @@
 	<span class="sub" ng-bind="item.last_modified_date"></span>
 </p>
 <!--Right Hand Button Action (only allowed one)-->
-<md-button type="button" aria-label="pinText(item)" ng-click="changePin(item)" class="md-secondary md-raised"
+<md-button type="button" aria-label="pinText(item)" ng-click="changePin(item, $event)" class="md-secondary md-raised"
 ng-class="{'md-warn': item.pinned == true}" ng-bind="pinText(item)"></md-button>

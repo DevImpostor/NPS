@@ -1,0 +1,46 @@
+[
+        {
+                "type": "product",
+                "guid": "fd300248-05b2-48e0-9198-e397cff0a1b2",
+                "id": 0,
+                "name": "Product A",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/20/2015",
+                "description": "here is a description for Product A"
+        },
+        {
+                "type": "product",
+                "guid": "b25d0342-51e1-447e-a0b4-0984b2581d0f",
+                "id": 0,
+                "name": "Product B",
+                "created_by": "Mark Ragu",
+                "created_date": "11/6/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/7/2015",
+                "description": "here is a description for Product B"
+        },
+        {
+                "type": "product",
+                "guid": "1380725e-d3f2-472b-86ac-06b187ea36db",
+                "id": 0,
+                "name": "Product C",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/2/2015",
+                "description": "here is a description for Product C"
+        },
+        {
+                "type": "product",
+                "guid": "bb040dd6-d83e-41dc-921a-90812da9c8d6",
+                "id": 0,
+                "name": "Product D",
+                "created_by": "Kelly Klemmings",
+                "created_date": "11/11/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/25/2015",
+                "description": "here is a description for Product D"
+        }
+]

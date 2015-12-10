@@ -5,6 +5,9 @@
 md-content.md-default-theme {
   background-color: #eee;
 }
+md-content.md-default-theme.dialog {
+  background-color: white;
+}
 
 md-sidenav > md-toolbar {
   padding: 15px;
@@ -90,4 +93,23 @@ md-toast.md-info-toast-theme {
 }
 .list-item p {
   display: block;
+}
+
+.small-chips  md-chip {
+  line-height: 25px !important;
+  height: 25px !important;
+}
+
+.small-chips  button {
+  height: 25px !important;
+}
+
+.small-chips  md-chips-wrap {
+  padding: 0px;
+}
+
+.field-header {
+  color: rgba(0, 0, 0, 0.541176);
+  font-size: 14px;
+  font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif;
 }

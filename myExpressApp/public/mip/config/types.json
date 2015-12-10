@@ -4,6 +4,8 @@
     "title": "Invention Disclosure Form",
     "icon": "action:ic_lightbulb_outline_24px",
     "list_view": "views/typed/list/idf.html",
+    "edit_view": "views/typed/edit/idf.html",
+    "can_add": true,
     "list_categories": [
       {
         "title": "All",
@@ -18,13 +20,19 @@
           }
         ]
       }
-    ]
+    ],
+    "defaults": {
+      "title": "test",
+      "emerson_ref_nums": [],
+      "MGB_ref_nums": []
+    }
   },
   {
     "name": "personnel",
     "title": "Personnel",
     "icon": "social:ic_group_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/personnel.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -35,17 +43,19 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   },
   {
     "name": "project",
     "title": "Projects",
     "icon": "action:ic_timeline_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/project.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -56,17 +66,19 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   },
   {
     "name": "mgb_journal",
     "title": "MGB Journals",
     "icon": "av:ic_library_books_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/product_release.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -77,17 +89,19 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   },
   {
     "name": "product",
     "title": "Products",
     "icon": "hardware:ic_toys_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/product.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -98,17 +112,19 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   },
   {
     "name": "product_release",
     "title": "Product Releases",
     "icon": "action:ic_launch_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/product_release.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -119,17 +135,19 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   },
   {
     "name": "business_unit",
     "title": " Business Units",
     "icon": "action:ic_view_module_24px",
-    "list_view": "",
+    "list_view": "views/typed/list/business_unit.html",
+    "can_add": false,
     "list_categories": [
       {
         "title": "All",
@@ -140,10 +158,11 @@
         "filter": [
           {
             "field_name": "pinned",
-            "value_condition": "true"
+            "value_condition": true
           }
         ]
       }
-    ]
+    ],
+    "defaults": {}
   }
 ]

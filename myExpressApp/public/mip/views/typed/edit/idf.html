@@ -1,0 +1,46 @@
+<!--Row 1-->
+<div layout="" layout-sm="column">
+	<md-input-container flex="">
+		<label>Invention Title</label>
+		<input ng-model="item.title">
+	</md-input-container>
+</div>
+
+<!--Row 2-->
+<div layout="column" layout-sm="column">
+	<span class="field-header" layout="row" layout-align="end">Emmerson Ref Number(s)</span>
+	<md-chips placeholder="+ Number" secondary-placeholder="Enter a number" class="small-chips" ng-model="item.emerson_ref_nums"></md-chips>
+</div>
+
+<div layout="" layout-sm="column">
+	<br>
+</div>
+
+<div layout="column" layout-sm="column">
+	<span class="field-header" layout="row" layout-align="end">MGB Ref Number(s)</span>
+	<md-chips placeholder="+ Number" secondary-placeholder="Enter a number" class="small-chips" ng-model="item.MGB_ref_nums"></md-chips>
+</div>
+
+<div layout="" layout-sm="column">
+	<br>
+</div>
+
+<!--Row 3-->
+<div layout="" layout-sm="column">
+	<md-input-container flex="">
+		<label>Status</label>
+		<md-select ng-model="item.status">
+			<md-option ng-repeat="option in getDropOptions('idf_status')" value="{{option.title}}" ng-bind="option.title"></md-option>
+		</md-select>
+	</md-input-container>
+	<md-input-container flex="">
+		<label>Category</label>
+		<md-select ng-model="item.status">
+			<md-option ng-repeat="option in getDropOptions('idf_cat')" value="{{option.title}}" ng-bind="option.title"></md-option>
+		</md-select>
+	</md-input-container>
+	<md-input-container flex="">
+		<label>Assigned To</label>
+		<input ng-model="item.assigned_to"></input>
+	</md-input-container>
+</div>

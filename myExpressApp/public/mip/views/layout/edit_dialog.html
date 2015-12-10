@@ -1,0 +1,130 @@
+<md-dialog aria-label="{{title}}">
+  <form>
+    <!--Header Bar-->
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2 ng-bind="title"></h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="answer('not applicable')">
+          <md-icon ng-click="cancel()" md-svg-icon="navigation:ic_close_24px" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <!--Main Content-->
+    <md-dialog-content>
+      <div layout="row">
+        <!--Edit Form-->
+        <md-content class="dialog" layout-padding="" flex ng-include="type.edit_view">
+
+        </md-content>
+
+        <!--Relationship Area-->
+        <md-content class="dialog" style="width: 550px" layout-padding="">
+          <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Personnel">
+              <md-content class="md-padding dialog">
+                <md-chips ng-model="item.personnel" md-autocomplete-snap md-require-match>
+                  <md-autocomplete style="width: 210px" md-selected-item="selectedItem1" md-search-text="searchText1" md-items="option in getOptions('personnel')"
+                  md-item-text="item.title" placeholder="Link Personnel...">
+                    <span md-highlight-text="searchText1">{{option.first_name}} {{option.last_name}}  - {{option.title}}</span>
+                  </md-autocomplete>
+                  <md-chip-template>
+                    <span ng-click="clicked($chip)">
+                      <md-icon md-svg-icon="social:ic_group_24px" aria-label="Forward"></md-icon>
+                      <strong>{{$chip.first_name}} {{$chip.last_name}}</strong>
+                      <em>({{$chip.title}})</em>
+                   </span>
+                  </md-chip-template>
+                </md-chips>
+              </md-content>
+            </md-tab>
+            <md-tab label="Projects">
+              <md-content class="md-padding dialog">
+                <md-chips ng-model="item.projects" md-autocomplete-snap md-require-match>
+                  <md-autocomplete style="width: 210px" md-selected-item="selectedItem2" md-search-text="searchText2" md-items="option in getOptions('project')"
+                  md-item-text="item.title" placeholder="Link Projects...">
+                    <span md-highlight-text="searchText2">{{option.name}} - {{option.current_gate}}</span>
+                  </md-autocomplete>
+                  <md-chip-template>
+                    <span ng-click="clicked($chip)">
+                      <md-icon md-svg-icon="action:ic_timeline_24px" aria-label="Forward"></md-icon>
+                      <strong>{{$chip.name}}</strong>
+                   </span>
+                  </md-chip-template>
+                </md-chips>
+              </md-content>
+            </md-tab>
+            <md-tab label="MGB Journals">
+              <md-content class="md-padding dialog">
+
+              </md-content>
+            </md-tab>
+            <md-tab label="Projects">
+              <md-content class="md-padding dialog">
+
+              </md-content>
+            </md-tab>
+            <md-tab label="Releases">
+              <md-content class="md-padding dialog">
+
+              </md-content>
+            </md-tab>
+          </md-tabs>
+        </md-content>
+      </div>
+      <div layout="row">
+        <md-content class="dialog" layout-padding="" flex>
+          <md-input-container layout="" layout-sm="column">
+            <label>Notes</label>
+            <textarea ng-model="item.notes" columns="1" md-maxlength="500"></textarea>
+          </md-input-container>
+        </md-content>
+      </div>
+    </md-dialog-content>
+    <!--Bottom Action/Button Bar-->
+    <div class="md-actions" layout="row">
+<!--      <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" show-md>-->
+        <md-menu md-position-mode="target target" show-md>
+          <md-button aria-label="Open phone interactions menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
+            <md-icon md-menu-origin="" md-svg-icon="editor:ic_attach_file_24px"></md-icon>
+          </md-button>
+          <md-menu-content width="4">
+            <md-menu-item>
+              <md-button ng-click="ctrl.redial($event)">
+                <md-icon md-svg-icon="editor:ic_insert_drive_file_24px"></md-icon>
+                Some Document.docx
+              </md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button ng-click="ctrl.redial($event)">
+                <md-icon md-svg-icon="image:ic_photo_24px"></md-icon>
+                Cool Image.jpg
+              </md-button>
+            </md-menu-item>
+            <md-menu-item>
+              <md-button ng-click="ctrl.redial($event)">
+                <md-icon md-svg-icon="editor:ic_insert_drive_file_24px"></md-icon>
+                Another Document.docx
+              </md-button>
+            </md-menu-item>
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item>
+              <md-button ng-click="ctrl.toggleNotifications()">
+                <md-icon md-svg-icon="file:ic_file_upload_24px"></md-icon>
+                Upload Attachments...
+              </md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+        <span>Attachments <b>(3)</b></span>
+<!--      </md-button>-->
+      <span flex></span>
+      <md-button ng-click="cancel()">
+        Cancel
+      </md-button>
+      <md-button ng-click="save()" style="margin-right:20px;">
+        Save & Close
+      </md-button>
+    </div>
+  </form>
+</md-dialog>

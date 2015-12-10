@@ -1,0 +1,57 @@
+[
+	{
+		"name": "idf_status",
+		"options": [
+			{
+				"title": "New",
+				"order": 1,
+				"enabled": true
+			},
+			{
+				"title": "In Progress",
+				"order": 2,
+				"enabled": true
+			},
+			{
+				"title": "Pending",
+				"order": 3,
+				"enabled": true
+			},
+			{
+				"title": "Under Review",
+				"order": 4,
+				"enabled": true
+			},
+			{
+				"title": "Complete",
+				"order": 5,
+				"enabled": true
+			}
+		]
+	},
+	{
+		"name": "idf_cat",
+		"options": [
+			{
+				"title": "Category 1",
+				"order": 1,
+				"enabled": true
+			},
+			{
+				"title": "Category 2",
+				"order": 2,
+				"enabled": true
+			},
+			{
+				"title": "Category 3",
+				"order": 3,
+				"enabled": true
+			},
+			{
+				"title": "Category 4",
+				"order": 4,
+				"enabled": true
+			}
+		]
+	}
+]

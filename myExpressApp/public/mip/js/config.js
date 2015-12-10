@@ -10,3 +10,13 @@ var getTypes = function ($http, $q) {
 		});
 	});
 };
+
+var getDrops = function ($http, $q) {
+	return $q(function (resolve, reject) {
+		$http.get("config/drop.json").then(function (data) {
+			resolve(data);
+		}, function (error) {
+			reject(error);
+		});
+	});
+};

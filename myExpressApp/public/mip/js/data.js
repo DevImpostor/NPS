@@ -16,18 +16,18 @@ var getRecords = function ($http, $q, typeName, filters) {
 			listToReturn = recordCache[0].records;
 			listToReturn = applyFilters(listToReturn, filters);
 			resolve(listToReturn);
-			
+
 		}
 		else {
 
 			$http.get("mocks/" + typeName + ".json").then(function (records) {
 				listToReturn = records.data;
-				record_cache.push({"typeName": typeName, "records": listToReturn});
+				record_cache.push({ "typeName": typeName, "records": listToReturn });
 				applyFilters(listToReturn, filters);
 				resolve(listToReturn);
 			}, function (error) {
 				listToReturn = [];
-				record_cache.push({"typeName": typeName, "records": listToReturn});
+				record_cache.push({ "typeName": typeName, "records": listToReturn });
 				reject(error, listToReturn);
 			});
 
@@ -36,6 +36,20 @@ var getRecords = function ($http, $q, typeName, filters) {
 	});
 
 };
+
+var addRecord = function ($http, $q, item, typeName) {
+	
+	var recordCache = Enumerable.From(record_cache).Where(function (x) {
+		return x.typeName == typeName;
+	}).ToArray();
+
+	if (recordCache.length > 0) {
+		recordCache[0].records.push(item);
+	}
+	else {
+		record_cache.push({ "typeName": typeName, "records": [item] });
+	}
+}
 
 var applyFilters = function (records, filters) {
 	if (filters != []) {

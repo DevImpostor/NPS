@@ -1,0 +1,54 @@
+[
+        {
+                "type": "product_release",
+                "guid": "9b9fbdb2-b68c-41e9-ba86-60dd003efe80",
+                "id": 0,
+                "name": "Product Release A",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/20/2015",
+                "platform": "Delta V",
+                "version": "2.1",
+                "date": "6/12/2015"
+        },
+        {
+                "type": "product_release",
+                "guid": "8dd07cc1-896c-4ef3-9208-bf5a2a7aaec8",
+                "id": 0,
+                "name": "Product Release B",
+                "created_by": "Mark Ragu",
+                "created_date": "11/6/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/7/2015",
+                "platform": "Ovation",
+                "version": "1",
+                "date": "1/2/2015"
+        },
+        {
+                "type": "product_release",
+                "guid": "490d8a5f-1bac-4255-808d-e0c545d2bbb5",
+                "id": 0,
+                "name": "Product Release C",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/2/2015",
+                "platform": "Delta V",
+                "version": "1.1",
+                "date": "11/2/2015"
+        },
+        {
+                "type": "product_release",
+                "guid": "23388ef5-a182-4a5e-8b0c-c0fc2c0b298e",
+                "id": 0,
+                "name": "Product Release D",
+                "created_by": "Kelly Klemmings",
+                "created_date": "11/11/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/25/2015",
+                "platform": "Delta V",
+                "version": "4.1.1",
+                "date": "11/2/2015"
+        }
+]

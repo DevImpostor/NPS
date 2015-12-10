@@ -1,0 +1,58 @@
+[
+        {
+                "type": "mgb_journal",
+                "guid": "069a4ede-0b10-4b3f-b019-fc3bb342182c",
+                "id": 0,
+                "name": "Journal A",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/20/2015",
+                "date": "11/5/2015",
+                "journal_creator": "Paul Weiss",
+                "mgb_attendees": ["Paul Glad", "Mary Hurst"],
+                "emerson_attendees": ["Mike Altoff", "Sean Burke"]
+        },
+        {
+                "type": "mgb_journal",
+                "guid": "38b7e228-e37c-4f85-976c-c720b6e5e5b9",
+                "id": 0,
+                "name": "Journal B",
+                "created_by": "Mark Ragu",
+                "created_date": "11/6/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/7/2015",
+                "date": "11/2/2015",
+                "journal_creator": "Mary Stevens",
+                "mgb_attendees": ["Paul Glad", "Mary Hurst"],
+                "emerson_attendees": ["Mike Altoff", "Sean Burke"]
+        },
+        {
+                "type": "mgb_journal",
+                "guid": "ef6db01c-8aee-45fb-9d81-ae14de69221a",
+                "id": 0,
+                "name": "Journal C",
+                "created_by": "Gene Smith",
+                "created_date": "11/2/2015",
+                "last_modified_by": "Gene Smith",
+                "last_modified_date": "11/2/2015",
+                "date": "12/2/2015",
+                "journal_creator": "Mary Stevens",
+                "mgb_attendees": ["Paul Glad", "Mary Hurst"],
+                "emerson_attendees": ["Mike Altoff", "Sean Burke"]
+        },
+        {
+                "type": "mgb_journal",
+                "guid": "2e880a35-5389-44e2-b624-6787afdbca7c",
+                "id": 0,
+                "name": "Journal D",
+                "created_by": "Kelly Klemmings",
+                "created_date": "11/11/2015",
+                "last_modified_by": "Kelly Klemmings",
+                "last_modified_date": "11/25/2015",
+                "date": "11/2/2014",
+                "journal_creator": "Tony Marsh",
+                "mgb_attendees": ["Paul Glad", "Mary Hurst"],
+                "emerson_attendees": ["Mike Altoff", "Sean Burke"]
+        }
+]

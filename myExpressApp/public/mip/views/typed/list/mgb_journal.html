@@ -1,0 +1,36 @@
+<!--First Line-->
+<p layout="row">
+	<span class="title" ng-bind="item.name"></span>
+</p>
+<!--Second Line-->
+<p layout="row">
+	<span class="sub bold" >Journal Creator:</span>
+	<span class="sub" ng-bind="item.journal_creator"></span>
+</p>
+<!--Third line-->
+<p layout="row">
+	<span class="sub bold" >Date:</span>
+	<span class="sub" ng-bind="item.date"></span>	
+</p>
+<!--Fourth line-->
+<p layout="row">
+	<span class="sub bold">MGB Attendees:</span>
+	<span class="sub" ng-bind="item.mgb_attendees"></span>
+	
+</p>
+<!--Fifth line-->
+<p layout="row">
+	<span class="sub bold">Emerson Attendees:</span>
+	<span class="sub" ng-bind="item.emerson_attendees"></span>
+	
+</p>
+<!--sixth line-->
+<p layout="row">
+	<span class="sub bold" >Last Edited:</span>
+	<span class="sub" ng-bind="item.last_modified_by"></span>
+	<span class="sub bold">on</span>
+	<span class="sub" ng-bind="item.last_modified_date"></span>
+</p>
+<!--Right Hand Button Action (only allowed one)-->
+<md-button type="button" aria-label="pinText(item)" ng-click="changePin(item)" class="md-secondary md-raised"
+ng-class="{'md-warn': item.pinned == true}" ng-bind="pinText(item)"></md-button>

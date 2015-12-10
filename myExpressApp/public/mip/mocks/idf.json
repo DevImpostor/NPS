@@ -10,7 +10,9 @@
                 "last_modified_date": "11/20/2015",
                 "emerson_ref_nums": ["192387", "187264"],
                 "MGB_ref_nums": ["A83798"],
-                "status": "In Progress"
+                "status": "In Progress",
+                "assigned_to": "Jeff Fisher",
+                "notes": ""
         },
         {
                 "type": "idf",
@@ -23,7 +25,9 @@
                 "last_modified_date": "11/7/2015",
                 "emerson_ref_nums": ["233453"],
                 "MGB_ref_nums": [],
-                "status": "Pending"
+                "status": "Pending",
+                "assigned_to": "Jeff Fisher",
+                "notes": ""
         },
         {
                 "type": "idf",
@@ -36,7 +40,9 @@
                 "last_modified_date": "11/2/2015",
                 "emerson_ref_nums": [],
                 "MGB_ref_nums": [],
-                "status": "New"
+                "status": "New",
+                "assigned_to": "Jeff Fisher",
+                "notes": ""
         },
         {
                 "type": "idf",
@@ -49,7 +55,9 @@
                 "last_modified_date": "11/25/2015",
                 "emerson_ref_nums": ["543234"],
                 "MGB_ref_nums": ["A83798"],
-                "status": "Under Review"
+                "status": "Under Review",
+                "assigned_to": "Jeff Fisher",
+                "notes": ""
         },
         {
                 "type": "idf",
@@ -62,7 +70,9 @@
                 "last_modified_date": "11/1/2015",
                 "emerson_ref_nums": ["192387", "187264", "6567776"],
                 "MGB_ref_nums": ["A83798", "V435467"],
-                "status": "Complete"
+                "status": "Complete",
+                "assigned_to": "Jeff Fisher",
+                "notes": "Some previous notes..."
         },
         {
                 "type": "idf",
@@ -75,6 +85,8 @@
                 "last_modified_date": "11/1/2015",
                 "emerson_ref_nums": ["345346", "2342135"],
                 "MGB_ref_nums": ["F23456"],
-                "status": "Complete"
+                "status": "Complete",
+                "assigned_to": "Jeff Fisher",
+                "notes": ""
         }
 ]
